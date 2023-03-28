@@ -1,0 +1,51 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title-custom {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+::-webkit-file-upload-button {
+  padding: 10px 10px;
+  margin-right: 20px;
+  border: 0;
+}
+
+.fileForm {
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.nav-text {
+  margin-bottom: 0;
+  text-align: c;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-text {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #bs-override .h5 {
+    display: none;
+  }
+
+  input {
+    width: 100%;
+  }
+  .login {
+    padding: 10px;
+  }
+  .resp-logo {
+    display: none;
+  }
+}
